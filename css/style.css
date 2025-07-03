@@ -6,7 +6,7 @@
   /* --light:  #f8f8f9; */
   --light:  #fff0e6;
   /* --dark: #001d23; */
-  --dark: #1c1c1c;
+  --dark: #000;
 }
 
 .back-to-top {
@@ -75,7 +75,7 @@
 /*** Navbar ***/
 .fixed-top {
   transition: 0.5s;
-  background: #1c1c1c !important;
+  background: #000 !important;
 }
 
 .top-bar {
@@ -452,7 +452,7 @@
 }
 /*-------------*/
 /* .banner-sec {
-  background-color: #1c1c1c;
+  background-color: #000;
 } */
 .navbar-expand-lg {
   padding-top: 10px !important;
@@ -474,7 +474,7 @@
     height: 50px;
   }
   .carousel-inner {
-    margin-top: 90px;
+    margin-top: 85px;
   }
 }
 
