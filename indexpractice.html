@@ -610,7 +610,7 @@
     <!-- Template Javascript -->
 
     <script src="js/demo.js"></script>
-    
+
     <script>
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
@@ -626,7 +626,30 @@
             }
         });
     </script>
-   
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                setTimeout(function () {
+                    // Check if the navbar is expanded
+                    const isExpanded = $('#navbarCollapse').hasClass('show');
+                    const isBlackIcon = $('.navbar-toggler-icon').hasClass('navbar-toggler-icon-black');
+
+                    if (isExpanded) {
+                        if (isBlackIcon) {
+                            $('.navbar .navbar-nav').css('background-color', '#000'); // Black
+                        } else {
+                            $('.navbar .navbar-nav').css('background-color', '#fff0e6'); // Light
+                        }
+                    } else {
+                        // Collapse state – reset or clear background
+                        $('.navbar .navbar-nav').css('background-color', '');
+                    }
+                }, 10); // Slight delay to allow collapse to animate
+            });
+        });
+    </script>
+
+
 
 
 

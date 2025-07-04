@@ -485,7 +485,9 @@
     height: 45px;
   } */
   .carousel-inner {
-    margin-top: 65px;
+    /* margin-top: 65px; */
+    margin-top: 75px;
+
   }
   .navbar-expand-lg {
     padding-top: 5px !important;

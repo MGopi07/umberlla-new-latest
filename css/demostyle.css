@@ -142,7 +142,7 @@
   .navbar .navbar-nav {
     margin-top: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.07);
-    background: var(--dark);
+    /* background: var(--dark); */
     /* background: #fff0e6; */
   }
 
