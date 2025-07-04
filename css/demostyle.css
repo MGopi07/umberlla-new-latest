@@ -513,10 +513,10 @@
 
 /* Mobile view: 576px and below */
 @media (max-width: 576px) {
-  .logo {
+  /* .logo {
     width: 120px;
     height: 40px;
-  }
+  } */
   .carousel-inner {
     margin-top: 65px;
   }
